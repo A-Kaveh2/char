@@ -1,5 +1,6 @@
 package ir.rasen.charsoo;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,6 +13,11 @@ public class ActivityMain extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /*Test part*/
+        Intent intent = new Intent(this,ActivityTest.class);
+        startActivity(intent);
+        /*Test part*/
     }
 
 

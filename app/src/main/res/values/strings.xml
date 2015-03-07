@@ -4,5 +4,65 @@
     <string name="app_name">charsoo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="exception_code">Exception Code: </string>
+    <string name="download_storage_path">/Charsoo/cache/images</string>
+
+    <!--Exceptions-->
+    <string name="invalid_image_id">BaseAdapterItem.imageId is invalid</string>
+    <string name="identifier_is_too_long">BaseAdapterItem.title length is greater than limit. The limit is 25</string>
+    <!--Exceptions-->
+
+    <!--Exceptions Codes-->
+    <string name="invalid_image_id_code">001</string>
+    <string name="identifier_is_too_long_code">002</string>
+    <!--Exceptions Codes-->
+
+    <!-- ERRORS -->
+    <string name="enter_valid_username">نام کاربری حدأقل 4 حرفی بوده و تنها می تواند از حروف انگلیسی, اعداد, . یا _ تشکیل شود.</string>
+    <string name="enter_valid_business_id">شناسه ی کسب و کار حدأقل 4 حرفی بوده و تنها می تواند از حروف انگلیسی, اعداد, . یا _ تشکیل شود.</string>
+    <string name="enter_valid_name">نام حدأقل 3 حرفی بوده و تنها می تواند از حروف انگلیسی و فارسی, اعداد, فاصله, . یا _ تشکیل شود.</string>
+    <string name="enter_valid_email">لطفأ آدرس ایمیل را به طور صحیح وارد نمایید.</string>
+    <string name="enter_password_5_digits">لطفأ رمز عبور حدأقل 5 رقمی را وارد نمایید.</string>
+    <string name="enter_same_passwords">رمز های عبور وارد شده مطابقت ندارند.</string>
+    <string name="enter_is_too_long">طولانی تر از حد مجاز می باشد.</string>
+    <string name="enter_valid_price">قیمت محصول را به صورت عدد وارد نمایید.</string>
+    <string name="comment_is_too_short">نظر خود را با حدأقل 3 حرف وارد کنید.</string>
+    <string name="choose_category_first">لطفأ موضوع فعالیت کسب و کار خود را تعیین نمایید.</string>
+    <string name="ok">تأیید</string>
+    <string name="enter_business_description">لطفأ توضیحاتی در خصوص کسب و کار وارد نمایید.</string>
+    <string name="err_business_does_not_exist">BUSINESS DOES NOT EXIST! Error:04</string>
+    <string name="err_post_does_not_exist">POST DOES NOT EXIST! Error:05</string>
+    <string name="err_json_serialization">CAN NOT SERIALIZE TO JSON! Error:06</string>
+    <string name="err_further_development">Need Further Development! Error:07</string>
+    <string name="err_empty_post_request">EMPTY OR INVALID BODY FOR POST REQUEST! Error:08</string>
+    <string name="err_invalid_base64_string">INVALID BASE64 STRING! Error:09</string>
+    <string name="err_database_constraints_violation">DATA BASE CONSTRAINTS VIOLATION! Error: 10</string>
+    <string name="err_block_does_not_exist">BLOCK DOES NOT EXIST! Error: 11</string>
+    <string name="err_comment_does_not_exist">COMMENT DOES NOT EXIST! Error: 12</string>
+    <string name="err_follow_already_exist">FOLLOW ALREADY EXISTS! Error: 13</string>
+    <string name="err_follow_does_not_exist">FOLLOW DOES NOT EXIST! Error: 14</string>
+    <string name="err_friend_request_does_not_exist">FRIEND REQUEST DOES NOT EXIST! Error: 15</string>
+    <string name="err_image_does_not_exist">IMAGE DOES NOT EXIST! Error: 16</string>
+    <string name="err_no_rate">NO RATE! Error: 17</string>
+    <string name="err_no_review">NO REVIEW! Error: 18</string>
+    <string name="err_login_password_re_enter">رمز عبور و تکرار آن یکسان نیستند.</string>
+    <string name="err_login_password_short">رمز عبور باید حداقل 6 کاراکتر باشد.</string>
+    <string name="err_login_email_invalid">آدرس ایمیل نامعتبر است.</string>
+    <string name="err_login_account_name_long">تعداد کاراکترهای نام کاربری بیش از حد مجاز است.</string>
+    <string name="err_login_name_long">تعداد کاراکترهای نام بیش از حد مجاز است.</string>
+    <string name="err_login_about_me_long">تعداد کاراکترهای درباره من بیش از حد مجاز است.</string>
+    <string name="err_login_server">خطای برقرار ارتباط با سرور.</string>
+    <string name="err_login_password_incorrect">رمز عبور اشتباه است. مجددا سعی نمایید</string>
+    <string name="err_login_email_incorrect">چنین آدرس پست الکترونیکی ثبت نشده است. مجددا سعی نمایید</string>
+    <string name="err_profile_edit_password_old_incorrect">رمز عبور صحیح نمی باشد.</string>
+    <string name="err_set_picture">لطفأ تصویری را انتخاب کنید.</string>
+    <string name="err_execution">Execution Error</string>
+    <string name="err_none">None</string>
+    <string name="err_unknown">UNKNOW ERROR! Error:00</string>
+    <string name="err_database_connection">ارتباط برقرار نشد. مجددا سعی نمایید</string>
+    <string name="err_user_dose_not_exist">USER DOES NOT EXIST! Error:02</string>
+    <string name="err_password_incorrect">رمز عبور اشتباه است</string>
+    <string name="err_location">لطفأ موقعیت کسب و کار خود را تعیین کنید.</string>
+    <!-- ERRORS -->
 
 </resources>
