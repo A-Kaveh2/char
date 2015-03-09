@@ -1,11 +1,87 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ActivityMain">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ActivityMain">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friends, Followers, Search Users,\n Search Business"
+                android:id="@+id/button_adapter_base"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_adapter_base"
+                android:text="Business's post's Comments"
+                android:id="@+id/button_business_post_adapter_comment"
+                android:layout_centerHorizontal="true" />
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_business_post_adapter_comment"
+                android:text="Post's Comments"
+                android:id="@+id/button_post_adapter_comment"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_post_adapter_comment"
+                android:text="CommentsNotifications"
+                android:id="@+id/button_adapter_comment_notification"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_adapter_comment_notification"
+                android:text="User Reviews"
+                android:id="@+id/button_adapter_user_reviews"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_adapter_user_reviews"
+                android:text="Business Reviews"
+                android:id="@+id/button_adapter_business_reviews"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_adapter_business_reviews"
+                android:text="Dialog"
+                android:id="@+id/button_dialog"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_dialog"
+                android:text="Popup"
+                android:id="@+id/button_popup"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

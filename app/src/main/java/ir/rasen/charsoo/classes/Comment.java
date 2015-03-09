@@ -23,12 +23,9 @@ public class Comment {
     public int userProfilePictureID;
     public String text;
 
-    //postOwner is true only if getBusinessPosts is executing
-    public boolean isPostOwner;
-    public boolean isCommentOwner;
 
 
-    public static ArrayList<Comment> getFromJSONArray(JSONArray jsonArray, boolean postOwner, Context context) throws Exception {
+    public static ArrayList<Comment> getFromJSONArray(JSONArray jsonArray, Context context) throws Exception {
         ArrayList<Comment> comments = new ArrayList<Comment>();
         for (int j = 0; j < jsonArray.length(); j++) {
             JSONObject jsonObjectComment = jsonArray.getJSONObject(j);
@@ -39,8 +36,6 @@ public class Comment {
             comment.username = jsonObjectComment.getString(Params.USER_NAME);
             comment.userProfilePictureID = jsonObjectComment.getInt(Params.PROFILE_PICTURE_ID);
             comment.text = jsonObjectComment.getString(Params.TEXT);
-            comment.isPostOwner = postOwner;
-            comment.isCommentOwner = isCommentOwner(jsonObjectComment.getInt(Params.USER_ID), context);
             comments.add(comment);
         }
 

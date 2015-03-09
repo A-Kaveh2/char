@@ -6,6 +6,39 @@
     <string name="action_settings">Settings</string>
     <string name="exception_code">Exception Code: </string>
     <string name="download_storage_path">/Charsoo/cache/images</string>
+    <string name="image_file_path">/Image/</string>
+    <string name="exit_app">خروج</string>
+    <string name="popup_exit_app">خروج از نرم افزار؟</string>
+
+    <!-- SEARCH -->
+    <string name="search">جستجو</string>
+    <string name="products">محصولات</string>
+    <string name="enter_search_keywords">متنی را جهت جستجو وارد نمایید.</string>
+    <string name="no_location_found">مکان شما تشخیص داده نشده است, لطفأ مکانی را جهت جستجو انتخاب نمایید.</string>
+
+    <!-- PROFILE -->
+    <string name="profile">حساب کاربری</string>
+    <string name="profile_edit_profile">ویرایش حساب</string>
+    <string name="old_password">رمز عبور قبلی</string>
+    <string name="new_password">رمز عبور جدید</string>
+    <string name="change_password">تغییر رمز عبور</string>
+    <string name="password_will_change">کلمه ی عبور پس از ذخیره ی تغییرات تغییر خواهد یافت.</string>
+    <string name="email_will_change">آدرس ایمیل پس از ذخیره ی تغییرات تغییر خواهد یافت.</string>
+
+
+    <!-- LOGIN PAGE -->
+    <string name="login">ورود</string>
+    <string name="email">ایمیل</string>
+    <string name="password">رمز عبور</string>
+    <string name="forgot_password_sent">کلمه ی عبور شما از طریق ایمیل برایتان ارسال خواهد شد.</string>
+    <!-- REGISTER PAGE -->
+    <string name="register">ثبت نام</string>
+    <string name="forgot_password">فراموشی رمز عبور</string>
+    <string name="username">نام کاربری</string>
+    <string name="name">نام</string>
+    <string name="password_repeat">تکرار رمز عبور</string>
+    <string name="save">ذخیره</string>
+    <string name="help">راهنما</string>
 
     <!--Exceptions-->
     <string name="invalid_image_id">BaseAdapterItem.imageId is invalid</string>
@@ -64,5 +97,254 @@
     <string name="err_password_incorrect">رمز عبور اشتباه است</string>
     <string name="err_location">لطفأ موقعیت کسب و کار خود را تعیین کنید.</string>
     <!-- ERRORS -->
+
+
+    <!-- EDIT -->
+    <string name="share">به اشتراک گذاری</string>
+    <string name="report">گزارش تخلف</string>
+    <string name="edit">ویرایش</string>
+    <string name="delete">حذف</string>
+    <!-- EDIT -->
+
+    <!-- TIME -->
+    <string name="time_now">همین الآن!</string>
+    <string name="time_year">سال</string>
+    <string name="time_month">ماه</string>
+    <string name="time_week">هفته</string>
+    <string name="time_day">روز</string>
+    <string name="time_hour">ساعت</string>
+    <string name="time_minute">دقیقه</string>
+    <string name="time_ago">پیش</string>
+
+    <!-- HOME -->
+    <string name="about">درباره ی ما</string>
+
+    <!-- PROFILE -->
+    <string name="profile_edit">مشخصات</string>
+    <string name="password_change">تغییر رمز عبور</string>
+    <string name="birthday">روز تولد</string>
+    <string name="status">توضیحات</string>
+    <string name="friend_request">درخواست دوستی</string>
+    <string name="profile_edit_business">ویرایش اطلاعات کسب و کار</string>
+    <string name="profile_edit_business_text">اطلاعات کسب و کار خود را مشاهده و در صورت تمایل تغییراتی در آن اعمال کنید.</string>
+    <string name="profile_edit_delete_text">این کسب و کار و تمام محصولات آن را از حساب خود حذف کنید.</string>
+    <string name="follow_request">دنبال کردن</string>
+    <string name="followers">دنبال کنندگان</string>
+    <string name="followers_num">دنبال کننده</string>
+    <string name="friend_requests">درخواست های دوستی</string>
+    <string name="accept_or_ignore_requests">درخواست ها را تأیید و یا رد کنید.</string>
+    <string name="invalid_birthday">خطا در تاریخ تولد وارد شده!</string>
+
+    <!-- SEARCH -->
+    <string name="search_title">عنوان جستجو</string>
+    <string name="search_in">جستجو در</string>
+    <string name="nearby">نزدیک من</string>
+    <string name="searching_for">جستجوی</string>
+    <string name="in">در</string>
+    <string name="search_nearby">جستجوی اطراف</string>
+    <string name="filter">فیلتر:</string>
+    <string name="filter_all">فیلتر: تمام موضوعات</string>
+    <string name="search_businesses">جستجوی کسب و کار ها</string>
+    <string name="search_products">جستجوی محصولات</string>
+    <string name="choose_category">انتخاب موضوع</string>
+    <string name="selected_location">جستجوی مکان انتخابی</string>
+    <string name="no_results_found">جستجو نتیجه ای در بر نداشت.</string>
+
+    <!-- SEARCH USERS -->
+    <string name="search_users">جستجوی کاربران</string>
+
+    <!-- BUSINESSES -->
+    <string name="comments">نظرات</string>
+    <string name="business_id">شناسه ی کسب و کار</string>
+    <string name="business_settings">تنظیمات کسب و کار</string>
+    <string name="delete_business">حذف کسب و کار</string>
+    <string name="unfollow_business">خارج کردن از لیست کسب و کار ها</string>
+    <string name="popup_unfollow_business">آیا میخواهید این کسب و کار را از لیست کسب و کار های دنبال شده ی خود حذف کنید؟</string>
+
+    <!-- SETTINGS -->
+    <string name="friends">دوستان</string>
+    <string name="friend">دوست</string>
+    <string name="friends_set">با فعال کردن این گزینه به دوستان خود امکان می دهید لیست دوستان شما را مشاهده کنند.</string>
+    <string name="settings">تنظیمات</string>
+    <string name="businesses">کسب و کار ها</string>
+    <string name="business">کسب و کار</string>
+    <string name="businesses_set">با فعال کردن این گزینه به دوستان خود امکان می دهید کسب و کار های مورد علاقه ی شما را مشاهده کنند.</string>
+    <string name="reviews">نقد ها</string>
+    <string name="review">نقد</string>
+    <string name="reviews_set">با فعال کردن این گزینه به دوستان خود امکان می دهید نقد های شما را مشاهده کنند.</string>
+    <string name="new_review">نقد کنید</string>
+    <string name="settings_saved">ذخیره سازی انجام شد.</string>
+
+
+
+    <!-- DIALOGS -->
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="confirmation_delete_comment">آیا می خواهید نظر را حذف کنید؟</string>
+    <string name="confirmation_delete_review">آیا می خواهید نقد را حذف نکید؟</string>
+    <string name="confirmation_block_user">آیا می خواهید کاربر مورد نظر را مسدود کنید؟</string>
+
+    <!-- MENU ITEMS -->
+    <string name="exit">خروج از حساب</string>
+
+    <!-- POPUP -->
+    <string name="delete_post">حذف مطلب</string>
+    <string name="popup_delete">آیا میخواهید مطلب خود را حذف نمایید؟</string>
+    <string name="popup_share">آیا میخواهید این مطلب را به اشتراک بگذارید؟</string>
+    <string name="popup_report">آیا میخواهید گزارش تخلف این مطلب را ثبت کنید؟</string>
+    <string name="delete_comment">حذف نظر</string>
+    <string name="popup_delete_comment">آیا میخواهید نظر خود را حذف نمایید؟</string>
+    <string name="popup_delete_comment_from_my_business">آیا میخواهید این نظر را از روی محصول خود بردارید؟</string>
+    <string name="popup_delete_friend">آیا میخواهید شخص را از لیست دوستان خود حذف نمایید؟</string>
+    <string name="delete_review">حذف نظر</string>
+    <string name="popup_delete_review">آیا میخواهید نقد خود را حذف نمایید؟</string>
+    <string name="block">مسدود سازی</string>
+    <string name="block_follower">مسدود سازی دنبال کننده</string>
+    <string name="popup_block_follower">آیا میخواهید دسترسی کاربر به کسب و کار خود را مسدود نمایید؟</string>
+    <string name="unblock_follower">آزادسازی حساب</string>
+    <string name="popup_unblock_follower">آیا میخواهید دسترسی کاربر به کسب و کار خود را آزاد نمایید؟</string>
+    <string name="popup_delete_business">با این کار تمام محصولات این کسب و کار برای همیشه حذف خواهند شد.\n\nاز تصمیم خود مطمئن هستید؟</string>
+    <string name="popup_warning">توجه!</string>
+    <string name="delete_friend">لغو دوستی</string>
+
+    <!-- COMMENTS -->
+    <string name="enter_your_comment">نظر خود را بنویسید&#8230;</string>
+    <string name="send">ارسال</string>
+
+    <!-- Persian Date -->
+    <string name="FARVARDIN">فروردین</string>
+    <string name="ORDIBEHESHT">اردیبهشت</string>
+    <string name="KHORDAD">خرداد</string>
+    <string name="TIR">تیر</string>
+    <string name="MORDAD">مرداد</string>
+    <string name="SHAHRIVAR">شهریور</string>
+    <string name="MEHR">مهر</string>
+    <string name="ABAN">آبان</string>
+    <string name="AZAR">آذر</string>
+    <string name="DEY">دی</string>
+    <string name="BAHMAN">بهمن</string>
+    <string name="ESFAND">اسفند</string>
+
+
+
+    <!-- BUSINESS -->
+    <string name="business_name">نام کسب و کار</string>
+    <string name="business_address">موقعیت کسب و کار را تعیین کنید</string>
+    <string name="business_description">توضیحات کسب و کار</string>
+    <string name="new_business">کسب و کار جدید</string>
+    <string name="enter_working_time">ساعات کار را تعیین کنید</string>
+    <string name="phone">تلفن تماس</string>
+    <string name="website">وب سایت</string>
+    <string name="mobile">تلفن همراه</string>
+    <string name="next_step">مرحله ی بعد</string>
+    <string name="submit">ثبت</string>
+    <string name="business_location">موقعیت کسب و کار</string>
+    <string name="working_time">ساعات کاری</string>
+    <string name="address_defined">موقعیت تعیین شد:</string>
+    <string name="lat">عرض جغرافیایی:</string>
+    <string name="lon">طول جغرافیایی:</string>
+    <string name="invalid_phone">شماره ی وارد شده صحیح نمی باشد.</string>
+
+    <!-- POST -->
+    <string name="product_name">نام محصول</string>
+    <string name="product_price">قیمت</string>
+    <string name="product_code">کد کالا</string>
+    <string name="product_picture">تصویر محصول</string>
+    <string name="product_info">اطلاعات محصول</string>
+
+    <!-- PRODUCT -->
+    <string name="new_product">محصول جدید</string>
+    <string name="product_description">توضیحات محصول</string>
+
+    <!-- WEEK DAYS -->
+    <string name="SHANBE">شنبه</string>
+    <string name="YEK_SHANBE">یک شنبه</string>
+    <string name="DO_SHANBE">دوشنبه</string>
+    <string name="SE_SHANBE">سه شنبه</string>
+    <string name="CHAHAR_SHANBE">چهارشنبه</string>
+    <string name="PANJ_SHANBE">پنج شنبه</string>
+    <string name="JOME">جمعه</string>
+
+    <!-- TIMES -->
+    <string name="time_start">زمان شروع به کار</string>
+    <string name="time_end">زمان پایان کار</string>
+
+    <!-- MAP -->
+    <string name="error">خطا!</string>
+    <string name="error_google_play_services">ویرایش مناسبی از نرم افزار google play services بر روی دستگاه یافت نشد.\n\nلطفأ جهت استفاده از این بخش از نرم افزار, اقدام به دریافت و نصب آن نمایید.</string>
+    <string name="download">دریافت و نصب</string>
+    <string name="not_now">الآن نه</string>
+    <string name="title_activity_add_location">Map</string>
+
+    <!-- CALL INFO -->
+    <string name="call_info">اطلاعات تماس</string>
+
+    <!-- REVIEWS -->
+    <string name="enter_your_review">نقد خود را بنویسید&#8230;</string>
+
+    <!-- WELCOME -->
+    <string name="welcome_1">سلام! خوش اومدین!</string>
+    <string name="welcome_2">we R BEST!\n\nBELEAVE US....</string>
+    <string name="welcome_3">some text here... some ! text !!</string>
+
+    <!-- SPLASH SCREEN -->
+    <string name="splash_register">ثبت نام</string>
+    <string name="splash_login">ورود به حساب</string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="send_new_password">ارسال رمز عبور جدید</string>
+
+    <!-- EDIT COMMENT -->
+    <string name="edit_comment">ویرایش نظر</string>
+    <string name="edit_review">ویرایش نقد</string>
+    <string name="back">بازگشت</string>
+
+
+    <!--Dialog-->
+    <string name="dialog_ok">تایید</string>
+    <string name="cancel">انصراف</string>
+    <string name="dialog_forget_password">بازیابی رمز عبور</string>
+    <string name="dialog_update_success">اطلاعات به روز رسانی شد</string>
+    <string name="dialog_success">اطلاعات ثبت شد</string>
+
+    <string name="success">درخواست شما با موفقیت انجام شد.</string>
+
+    <!--ChOOSE PICTURE-->
+    <string-array name="camera_or_gallery">
+        <item>@string/camera</item>
+        <item>@string/gallery</item>
+    </string-array>
+    <string name="camera">دوربین</string>
+    <string name="gallery">گالری</string>
+    <string name="choose_photo">انتخاب تصویر</string>
+
+    <!-- SEX -->
+    <string name="sex_unknown">جنسیت انتخاب نشده</string>
+    <string name="sex_male">مرد</string>
+    <string name="sex_female">زن</string>
+
+    <!-- BLOCKEDS -->
+    <string name="blockeds">مسدود شده ها</string>
+
+    <string name="rate_needed">لطفأ برای کسب و کار امتیازی در نظر بگیرید.</string>
+
+    <string name="manage_blockeds">کاربران مسدود شده را مدیریت کنید.</string>
+
+
+
+
+    <string name="business_deleted">کسب و کار حذف شد.</string>
+
+    <string name="reviewed">را نقد کرد.</string>
+    <string name="followed">را دنبال میکند.</string>
+    <string name="loading">دریافت اطلاعات</string>
+    <string name="please_wait">لطفأ تا دریافت اطلاعات از سرور شکیبا باشید.</string>
+    <string name="distance">فاصله از محل تعیین شده:</string>
+    <string name="user">کاربر</string>
+    <string name="your_friend">دوست شما</string>
+    <string name="request_sent">درخواست ارسال شد</string>
+    <string name="following">دنبال میکنید</string>
+    <string name="new_email">ایمیل جدید</string>
+    <string name="change_email">تغییر آدرس ایمیل</string>
 
 </resources>

@@ -24,6 +24,9 @@ public class CommentNotification {
     public String text;
     public int intervalTime;//in millisecond.
 
+    public CommentNotification(){
+
+    }
     public CommentNotification(int id, int postID,String userName ,String userPicture,String postPicture, String text,int intervalTime) {
         this.id = id;
         this.postID = postID;
@@ -35,7 +38,7 @@ public class CommentNotification {
     }
 
     public  RemoteViews getCommentNotificationContentView(Context context){
-        RemoteViews contentView = new RemoteViews(context.getPackageName(), R.layout.custom_notification);
+        RemoteViews contentView = new RemoteViews(context.getPackageName(), R.layout.item_custom_notification);
         contentView.setImageViewBitmap(R.id.img_notification_user, Image_M.getBitmapFromString(userPicture));
         contentView.setImageViewBitmap(R.id.img_notification_post,Image_M.getBitmapFromString(postPicture));
         contentView.setTextViewText(R.id.txt_notification,text);

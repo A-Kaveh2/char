@@ -8,7 +8,8 @@ import android.util.Base64;
 
 import java.io.ByteArrayOutputStream;
 
-import ir.rasen.myapplication.R;
+import ir.rasen.charsoo.R;
+
 
 /**
  * Created by android on 12/29/2014.

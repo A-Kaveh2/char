@@ -17,7 +17,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/img_notification_post"
-            android:src="@drawable/no_image" />
+            android:src="@drawable/ic_launcher" />
     </LinearLayout>
 
     <LinearLayout
@@ -33,7 +33,6 @@
             android:gravity="right|center"
             android:text="New Text"
             android:layout_marginRight="10dp"
-            android:textColor="@color/notification_text"
             android:id="@+id/txt_notification" />
     </LinearLayout>
 
@@ -48,7 +47,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/img_notification_user"
-            android:src="@drawable/no_image" />
+            android:src="@drawable/ic_launcher" />
     </LinearLayout>
 
 

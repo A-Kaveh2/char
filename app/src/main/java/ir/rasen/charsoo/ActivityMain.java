@@ -5,6 +5,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class ActivityMain extends ActionBarActivity {
@@ -14,10 +16,66 @@ public class ActivityMain extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*Test part*/
-        Intent intent = new Intent(this,ActivityTest.class);
-        startActivity(intent);
-        /*Test part*/
+        final Intent intent = new Intent(ActivityMain.this, ActivityTest.class);
+
+        (findViewById(R.id.button_adapter_base)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                intent.putExtra("type", "button_adapter_base");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_business_post_adapter_comment)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_business_post_adapter_comment");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_post_adapter_comment)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_post_adapter_comment");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_adapter_comment_notification)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_adapter_comment_notification");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_adapter_user_reviews)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_adapter_user_reviews");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_dialog)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_dialog");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_popup)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_popup");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_adapter_business_reviews)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_adapter_business_reviews");
+                startActivity(intent);
+            }
+        });
+
     }
 
 

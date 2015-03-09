@@ -96,7 +96,7 @@ public class Post {
 
         String comments = jsonObject.getString(Params.COMMENTS);
         JSONArray jsonArrayComments = new JSONArray(comments);
-        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,false,context);
+        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,context);
 
         post.hashtagList = Hashtag.getListFromString(jsonObject.getString(Params.HASHTAG_LIST));
 
@@ -124,7 +124,7 @@ public class Post {
         JSONArray jsonArrayComments = new JSONArray(comments);
 
         //businessID is post's owner: in getFromJSONArray: postOwner is true
-        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,true,context);
+        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,context);
 
         post.hashtagList = Hashtag.getListFromString(jsonObject.getString(Params.HASHTAG_LIST));
 
@@ -158,7 +158,7 @@ public class Post {
             JSONArray jsonArrayComments = new JSONArray(comments);
 
             //
-            post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,false,context);
+            post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,context);
             post.likeNumber = jsonObject.getInt(Params.LIKE_NUMBER);
             post.commentNumber = jsonObject.getInt(Params.COMMENT_NUMBER);
             post.shareNumber = jsonObject.getInt(Params.SHARE_NUMBER);
