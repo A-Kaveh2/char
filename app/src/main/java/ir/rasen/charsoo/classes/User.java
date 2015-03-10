@@ -55,4 +55,8 @@ public class User {
 
         return businesses;
     }
+
+    public static void goUserHomeInfoPage(int userId){
+        String s = "Go user home info";
+    }
 }

@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_list_view_item">
 
 
     <RelativeLayout
@@ -11,14 +12,6 @@
         android:layout_margin="@dimen/adapter_item_margin"
         android:layout_height="wrap_content">
 
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_more_vert_black"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:id="@+id/imageView_comment_adapter_more" />
 
         <LinearLayout
             android:layout_width="wrap_content"

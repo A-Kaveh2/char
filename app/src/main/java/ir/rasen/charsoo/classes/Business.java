@@ -39,5 +39,8 @@ public class Business {
     public float rate;
 
 
+    public static void goBusinessHomeInfoPage(int businessId){
+        String s = "Go business home info page";
+    }
 
 }

@@ -49,5 +49,9 @@ public class Comment {
             return false;
     }
 
+    public static void openCommentActivity(int postId){
+        String s = "Open Comment Acitivty";
+    }
+
 
 }

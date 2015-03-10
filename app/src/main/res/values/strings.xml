@@ -42,12 +42,15 @@
 
     <!--Exceptions-->
     <string name="invalid_image_id">BaseAdapterItem.imageId is invalid</string>
+    <string name="invalid_id">BaseAdapterItem.id is invalid</string>
     <string name="identifier_is_too_long">BaseAdapterItem.title length is greater than limit. The limit is 25</string>
     <!--Exceptions-->
 
     <!--Exceptions Codes-->
     <string name="invalid_image_id_code">001</string>
+
     <string name="identifier_is_too_long_code">002</string>
+    <string name="invalid_id_code">003</string>
     <!--Exceptions Codes-->
 
     <!-- ERRORS -->
@@ -183,6 +186,8 @@
     <string name="confirmation_delete_comment">آیا می خواهید نظر را حذف کنید؟</string>
     <string name="confirmation_delete_review">آیا می خواهید نقد را حذف نکید؟</string>
     <string name="confirmation_block_user">آیا می خواهید کاربر مورد نظر را مسدود کنید؟</string>
+    <string name="confirmation_unfriend">آیا می خواهید رابطه دوستی را حذف کنید؟</string>
+    <string name="confirmation_unfollow">آیا می خواهید کسب و کار را دنبال نکنید؟</string>
 
     <!-- MENU ITEMS -->
     <string name="exit">خروج از حساب</string>
@@ -346,5 +351,7 @@
     <string name="following">دنبال میکنید</string>
     <string name="new_email">ایمیل جدید</string>
     <string name="change_email">تغییر آدرس ایمیل</string>
+    <string name="unfriend">حذف دوستی</string>
+    <string name="unfollow">حذف دنبال کردن</string>
 
 </resources>

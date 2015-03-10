@@ -34,7 +34,7 @@
                 android:text="Business's post's Comments"
                 android:id="@+id/button_business_post_adapter_comment"
                 android:layout_centerHorizontal="true" />
-            
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,6 +58,7 @@
                 android:text="User Reviews"
                 android:id="@+id/button_adapter_user_reviews"
                 android:layout_centerHorizontal="true" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -80,6 +81,53 @@
                 android:layout_below="@+id/button_dialog"
                 android:text="Popup"
                 android:id="@+id/button_popup"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_popup"
+                android:text="Friends"
+                android:id="@+id/button_friends"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_friends"
+                android:text="Followers"
+                android:id="@+id/button_followers"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_followers"
+                android:text="Following Businesses"
+                android:id="@+id/button_following_businesses"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_following_businesses"
+                android:text="User Search Reslut"
+                android:id="@+id/button_user_search_result"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_user_search_result"
+                android:text="Business Search Reslut"
+                android:id="@+id/button_business_search_result"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_business_search_result"
+                android:text="Friends Requests"
+                android:id="@+id/button_friends_request"
                 android:layout_centerHorizontal="true" />
         </LinearLayout>
     </ScrollView>

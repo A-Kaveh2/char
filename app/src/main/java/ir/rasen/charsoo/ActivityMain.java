@@ -75,6 +75,49 @@ public class ActivityMain extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+        (findViewById(R.id.button_friends)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_friends");
+                startActivity(intent);
+            }
+        });
+
+        (findViewById(R.id.button_followers)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_followers");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_following_businesses)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_following_businesses");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_user_search_result)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_user_search_result");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_business_search_result)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_business_search_result");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_friends_request)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_friends_request");
+                startActivity(intent);
+            }
+        });
 
     }
 

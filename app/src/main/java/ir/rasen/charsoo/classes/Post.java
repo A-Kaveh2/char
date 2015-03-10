@@ -37,7 +37,9 @@ public class Post {
     public String description;
     public String price;
     public String code;
-    public boolean isLiked;
+    public boolean isLiked=false;
+    public boolean isShared = false;
+    public boolean isReported = false;
 
     public int likeNumber;
     public int commentNumber;

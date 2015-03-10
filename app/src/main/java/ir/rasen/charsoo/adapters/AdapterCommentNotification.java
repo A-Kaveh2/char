@@ -20,14 +20,14 @@ import ir.rasen.charsoo.webservices.DownloadImages;
 /**
  * Created by android on 3/7/2015.
  */
-public class CommentNotificationAdapter extends BaseAdapter {
+public class AdapterCommentNotification extends BaseAdapter {
 
     private ArrayList<CommentNotification> commentNotifications;
     private Context context;
     DownloadImages downloadImages;
 
 
-    public CommentNotificationAdapter(Context context, ArrayList<CommentNotification> commentNotifications) {
+    public AdapterCommentNotification(Context context, ArrayList<CommentNotification> commentNotifications) {
         this.context = context;
         this.commentNotifications = commentNotifications;
         downloadImages = new DownloadImages(context);
