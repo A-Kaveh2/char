@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -74,6 +75,7 @@ public class AdapterBusinessSearchResult extends BaseAdapter {
             @Override
             public void onClick(View view) {
                 Business.goBusinessHomeInfoPage(items.get(position).getId());
+                Toast.makeText(context,"GO to business home info",Toast.LENGTH_LONG).show();
             }
         });
         //download image with customized class via imageId

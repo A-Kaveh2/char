@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -73,6 +74,7 @@ public class AdapterUserSearchResult extends BaseAdapter {
             @Override
             public void onClick(View view) {
                 User.goUserHomeInfoPage(items.get(position).getId());
+                Toast.makeText(context, "GO to user home info", Toast.LENGTH_LONG).show();
             }
         });
         //download image with customized class via imageId

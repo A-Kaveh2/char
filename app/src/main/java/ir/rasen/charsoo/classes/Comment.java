@@ -25,7 +25,16 @@ public class Comment {
 
 
 
-    public static ArrayList<Comment> getFromJSONArray(JSONArray jsonArray, Context context) throws Exception {
+    public Comment(int userID,String userIdentifier,String text){
+        //just for the test
+        this.userID = userID;
+        this.username = userIdentifier;
+        this.text = text;
+    }
+    public Comment(){
+
+    }
+    public static ArrayList<Comment> getFromJSONArray(JSONArray jsonArray) throws Exception {
         ArrayList<Comment> comments = new ArrayList<Comment>();
         for (int j = 0; j < jsonArray.length(); j++) {
             JSONObject jsonObjectComment = jsonArray.getJSONObject(j);

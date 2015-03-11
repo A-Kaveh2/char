@@ -117,6 +117,12 @@ public class ActivityMain extends ActionBarActivity {
                 intent.putExtra("type", "button_friends_request");
                 startActivity(intent);
             }
+        });(findViewById(R.id.button_time_line_posts)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_time_line_posts");
+                startActivity(intent);
+            }
         });
 
     }

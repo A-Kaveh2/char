@@ -70,11 +70,11 @@ public class AdapterCommentNotification extends BaseAdapter {
         holder.textViewText.setText(commentNotifications.get(position).text);
 
 
-        view.setOnClickListener(new View.OnClickListener() {
+        holder.imageViewImagePost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //open ActivityCommentNotification
-                Toast.makeText(context, "Open ActivityCommentNotification", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Open post info page", Toast.LENGTH_LONG).show();
             }
         });
 

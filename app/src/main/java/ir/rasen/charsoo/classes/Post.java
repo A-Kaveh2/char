@@ -83,7 +83,7 @@ public class Post {
     }
 
 
-    public static Post getFromJSONObjectShare(JSONObject jsonObject,Context context) throws Exception {
+    public static Post getFromJSONObjectShare(JSONObject jsonObject) throws Exception {
         Post post = new Post();
         post.id = jsonObject.getInt(Params.POST_ID);
         post.businessID = jsonObject.getInt(Params.BUSINESS_ID);
@@ -98,7 +98,7 @@ public class Post {
 
         String comments = jsonObject.getString(Params.COMMENTS);
         JSONArray jsonArrayComments = new JSONArray(comments);
-        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,context);
+        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments);
 
         post.hashtagList = Hashtag.getListFromString(jsonObject.getString(Params.HASHTAG_LIST));
 
@@ -111,7 +111,7 @@ public class Post {
     }
 
 
-    public static Post getFromJSONObjectBusiness(int businessID,JSONObject jsonObject,Context context) throws Exception {
+    public static Post getFromJSONObjectBusiness(int businessID,JSONObject jsonObject) throws Exception {
         Post post = new Post();
         post.id = jsonObject.getInt(Params.POST_ID);
         post.businessID = businessID;
@@ -125,8 +125,8 @@ public class Post {
         String comments = jsonObject.getString(Params.COMMENTS);
         JSONArray jsonArrayComments = new JSONArray(comments);
 
-        //businessID is post's owner: in getFromJSONArray: postOwner is true
-        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,context);
+
+        post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments);
 
         post.hashtagList = Hashtag.getListFromString(jsonObject.getString(Params.HASHTAG_LIST));
 
@@ -138,7 +138,7 @@ public class Post {
         return post;
     }
 
-    public static Post getFromJSONObjectTimeLine(JSONObject jsonObject,Context context) throws Exception {
+    public static Post getFromJSONObjectTimeLine(JSONObject jsonObject) throws Exception {
         Post post = new Post();
         post.id = jsonObject.getInt(Params.POST_ID);
         post.businessID = jsonObject.getInt(Params.BUSINESS_ID);
@@ -160,7 +160,7 @@ public class Post {
             JSONArray jsonArrayComments = new JSONArray(comments);
 
             //
-            post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments,context);
+            post.lastThreeComments = Comment.getFromJSONArray(jsonArrayComments);
             post.likeNumber = jsonObject.getInt(Params.LIKE_NUMBER);
             post.commentNumber = jsonObject.getInt(Params.COMMENT_NUMBER);
             post.shareNumber = jsonObject.getInt(Params.SHARE_NUMBER);

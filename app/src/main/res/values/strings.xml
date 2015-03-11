@@ -99,6 +99,7 @@
     <string name="err_user_dose_not_exist">USER DOES NOT EXIST! Error:02</string>
     <string name="err_password_incorrect">رمز عبور اشتباه است</string>
     <string name="err_location">لطفأ موقعیت کسب و کار خود را تعیین کنید.</string>
+    <string name="err_creation_date_invalid">آینده!</string>
     <!-- ERRORS -->
 
 
@@ -353,5 +354,12 @@
     <string name="change_email">تغییر آدرس ایمیل</string>
     <string name="unfriend">حذف دوستی</string>
     <string name="unfollow">حذف دنبال کردن</string>
+    <string name="hour">ساعت</string>
+    <string name="day">روز</string>
+    <string name="week">هفته</string>
+    <string name="month">ماه</string>
+    <string name="year">سال</string>
+    <string name="follow_announcement">این  کسب و کار را دنبال می کند</string>
+    <string name="review_announcement">این کسب و کار را نقد کرد</string>
 
 </resources>
