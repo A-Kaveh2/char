@@ -3,13 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/White"
     android:weightSum="100">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/Gray" />
+        android:background="@color/gray_light" />
 
     <RelativeLayout
         android:orientation="horizontal"
@@ -135,7 +136,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/post_item_divider"
-            android:background="@color/Cyan" />
+            android:background="@color/app_color" />
 
         <LinearLayout
             android:id="@+id/ll_comments"

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 
 
 public class ActivityMain extends ActionBarActivity {
@@ -18,6 +17,13 @@ public class ActivityMain extends ActionBarActivity {
 
         final Intent intent = new Intent(ActivityMain.this, ActivityTest.class);
 
+        (findViewById(R.id.button_login)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ActivityMain.this,ActivityLogin.class);
+                startActivity(intent);
+            }
+        });
         (findViewById(R.id.button_adapter_base)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,10 +123,32 @@ public class ActivityMain extends ActionBarActivity {
                 intent.putExtra("type", "button_friends_request");
                 startActivity(intent);
             }
-        });(findViewById(R.id.button_time_line_posts)).setOnClickListener(new View.OnClickListener() {
+        });
+        (findViewById(R.id.button_time_line_posts)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 intent.putExtra("type", "button_time_line_posts");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_grid_posts)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.putExtra("type", "button_grid_posts");
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_user_home)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ActivityMain.this, ActivityTestUser.class);
+                startActivity(intent);
+            }
+        });
+        (findViewById(R.id.button_business_home)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ActivityMain.this, ActivityTestBusiness.class);
                 startActivity(intent);
             }
         });

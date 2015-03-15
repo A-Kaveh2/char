@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ActionMenuView;
 import android.widget.BaseAdapter;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -23,6 +24,7 @@ import ir.rasen.charsoo.helper.Image_M;
 import ir.rasen.charsoo.helper.PersianDate;
 import ir.rasen.charsoo.helper.TestUnit;
 import ir.rasen.charsoo.interfaces.IReportPost;
+import ir.rasen.charsoo.ui.GridViewHeader;
 import ir.rasen.charsoo.ui.TextViewFont;
 import ir.rasen.charsoo.webservices.DownloadImages;
 import ir.rasen.charsoo.webservices.post.CancelShare;
@@ -40,7 +42,7 @@ public class AdapterPostTimeLine extends BaseAdapter implements IReportPost {
     DownloadImages downloadImages;
     private int screedWidth;
     private IReportPost iReportPost;
-    ListView listView;
+    GridView gridView;
 
 
     public AdapterPostTimeLine(Context context, ArrayList<Post> items) {
@@ -68,11 +70,10 @@ public class AdapterPostTimeLine extends BaseAdapter implements IReportPost {
 
     @Override
     public View getView(final int position, View view, ViewGroup viewGroup) {
-        if(listView == null) {
-            listView = (ListView) viewGroup;
-            listView.setSelector(new ColorDrawable(0x00ffffff));
+        if(gridView == null) {
+            gridView = (GridView) viewGroup;
+            gridView.setSelector(new ColorDrawable(0x00ffffff));
         }
-
         final Holder holder;
 
         if (view == null) {

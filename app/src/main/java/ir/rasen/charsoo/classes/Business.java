@@ -11,7 +11,7 @@ import ir.rasen.charsoo.helper.WorkTime;
  */
 public class Business {
     public int id;
-    public String businessUserName;
+    public String businessIdentifier;
     public int userID;
     public String name;
     public String coverPicture;
@@ -39,8 +39,10 @@ public class Business {
     public float rate;
 
 
-    public static void goBusinessHomeInfoPage(int businessId){
+    public static void goBusinessHomeInfoPage(int businessId) {
         String s = "Go business home info page";
     }
+
+
 
 }

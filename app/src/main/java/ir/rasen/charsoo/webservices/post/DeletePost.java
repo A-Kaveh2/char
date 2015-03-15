@@ -24,10 +24,10 @@ public class DeletePost extends AsyncTask<Void, Void, ResultStatus> {
     private int postID;
     private ServerAnswer serverAnswer;
 
-    public DeletePost(int businessID, int postID,IWebserviceResponse delegate) {
+    public DeletePost(int businessID, int postID) {
         this.businessID = businessID;
         this.postID = postID;
-        this.delegate = delegate;
+        //this.delegate = delegate;
     }
 
     @Override
@@ -51,13 +51,13 @@ public class DeletePost extends AsyncTask<Void, Void, ResultStatus> {
 
 
         //if webservice.execute() throws exception
-        if (serverAnswer == null) {
+        /*if (serverAnswer == null) {
             delegate.getError(ServerAnswer.EXECUTION_ERROR);
             return;
         }
         if (serverAnswer.getSuccessStatus())
             delegate.getResult(result);
         else
-            delegate.getError(serverAnswer.getErrorCode());
+            delegate.getError(serverAnswer.getErrorCode());*/
     }
 }

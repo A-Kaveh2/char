@@ -24,8 +24,8 @@ public class DeleteBusiness extends AsyncTask<Void, Void, ResultStatus> {
     private int userID;
     private ServerAnswer serverAnswer;
 
-    public DeleteBusiness(int userID, int businessID,IWebserviceResponse delegate) {
-        this.delegate = delegate;
+    public DeleteBusiness(int userID, int businessID) {
+        //this.delegate = delegate;
         this.businessID = businessID;
         this.userID = userID;
     }
@@ -49,13 +49,13 @@ public class DeleteBusiness extends AsyncTask<Void, Void, ResultStatus> {
     @Override
     protected void onPostExecute(ResultStatus result) {
 
-        if (serverAnswer == null) {
+        /*if (serverAnswer == null) {
             delegate.getError(ServerAnswer.EXECUTION_ERROR);
             return;
         }
         if (serverAnswer.getSuccessStatus())
             delegate.getResult(result);
         else
-            delegate.getError(serverAnswer.getErrorCode());
+            delegate.getError(serverAnswer.getErrorCode());*/
     }
 }

@@ -1,6 +1,7 @@
 package ir.rasen.charsoo.classes;
 
 import android.content.Context;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -103,9 +104,13 @@ public class Post {
         post.hashtagList = Hashtag.getListFromString(jsonObject.getString(Params.HASHTAG_LIST));
 
         post.isLiked = jsonObject.getBoolean(Params.IS_LIKED);
+        post.isReported = jsonObject.getBoolean(Params.IS_REPORTED);
+        post.isShared = true;
+
         post.likeNumber = jsonObject.getInt(Params.LIKE_NUMBER);
         post.commentNumber = jsonObject.getInt(Params.COMMENT_NUMBER);
         post.shareNumber = jsonObject.getInt(Params.SHARE_NUMBER);
+
 
         return post;
     }
@@ -156,6 +161,8 @@ public class Post {
             post.code = jsonObject.getString(Params.CODE);
             post.price = jsonObject.getString(Params.PRICE);
             post.isLiked = jsonObject.getBoolean(Params.IS_LIKED);
+            post.isReported = jsonObject.getBoolean(Params.IS_REPORTED);
+            post.isShared = jsonObject.getBoolean(Params.IS_SHARED);
             String comments = jsonObject.getString(Params.COMMENTS);
             JSONArray jsonArrayComments = new JSONArray(comments);
 
@@ -164,6 +171,7 @@ public class Post {
             post.likeNumber = jsonObject.getInt(Params.LIKE_NUMBER);
             post.commentNumber = jsonObject.getInt(Params.COMMENT_NUMBER);
             post.shareNumber = jsonObject.getInt(Params.SHARE_NUMBER);
+
 
             post.hashtagList = Hashtag.getListFromString(jsonObject.getString(Params.HASHTAG_LIST));
         } else if (post.type == Type.Follow) {
@@ -193,6 +201,10 @@ public class Post {
         if (ownerId == this.userId)
             return true;
         return false;
+    }
+
+    public static void goPostPage(Context context,int id){
+        Toast.makeText(context,"Go post page",Toast.LENGTH_LONG).show();
     }
 
 }

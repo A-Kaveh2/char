@@ -107,6 +107,7 @@
     <string name="share">به اشتراک گذاری</string>
     <string name="report">گزارش تخلف</string>
     <string name="edit">ویرایش</string>
+    <string name="edit_profile">ویراش پروفایل</string>
     <string name="delete">حذف</string>
     <!-- EDIT -->
 
@@ -167,10 +168,15 @@
 
     <!-- SETTINGS -->
     <string name="friends">دوستان</string>
+
     <string name="friend">دوست</string>
     <string name="friends_set">با فعال کردن این گزینه به دوستان خود امکان می دهید لیست دوستان شما را مشاهده کنند.</string>
     <string name="settings">تنظیمات</string>
     <string name="businesses">کسب و کار ها</string>
+    <string name="new_businesses">کسب و کار جدید</string>
+    <string name="guide">راهنما</string>
+    <string name="business_list">لیست کسب و کارها</string>
+    <string name="contact_us">تماس با ما</string>
     <string name="business">کسب و کار</string>
     <string name="businesses_set">با فعال کردن این گزینه به دوستان خود امکان می دهید کسب و کار های مورد علاقه ی شما را مشاهده کنند.</string>
     <string name="reviews">نقد ها</string>
@@ -185,13 +191,15 @@
     <string name="yes">بله</string>
     <string name="no">خیر</string>
     <string name="confirmation_delete_comment">آیا می خواهید نظر را حذف کنید؟</string>
+    <string name="confirmation_delete_post">آیا می خواهید پست را حذف کنید؟</string>
+    <string name="confirmation_delete_business">آیا می خواهید کسب و کار را حذف کنید؟</string>
     <string name="confirmation_delete_review">آیا می خواهید نقد را حذف نکید؟</string>
     <string name="confirmation_block_user">آیا می خواهید کاربر مورد نظر را مسدود کنید؟</string>
     <string name="confirmation_unfriend">آیا می خواهید رابطه دوستی را حذف کنید؟</string>
     <string name="confirmation_unfollow">آیا می خواهید کسب و کار را دنبال نکنید؟</string>
 
     <!-- MENU ITEMS -->
-    <string name="exit">خروج از حساب</string>
+    <string name="exit">خروج</string>
 
     <!-- POPUP -->
     <string name="delete_post">حذف مطلب</string>
@@ -361,5 +369,22 @@
     <string name="year">سال</string>
     <string name="follow_announcement">این  کسب و کار را دنبال می کند</string>
     <string name="review_announcement">این کسب و کار را نقد کرد</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
 
 </resources>

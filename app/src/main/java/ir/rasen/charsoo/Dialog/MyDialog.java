@@ -46,7 +46,7 @@ public class MyDialog extends MyPopup {
         TextViewFont textViewTitle = new TextViewFont(context);
         textViewTitle.setGravity(Gravity.CENTER);
         textViewTitle.setLayoutParams(paramsTitle);
-        textViewTitle.setTextColor(Color.CYAN);
+        textViewTitle.setTextColor(context.getResources().getColor(R.color.app_color));
         textViewTitle.setTextSize(context.getResources().getInteger(R.integer.font_size_dialog_header));
         textViewTitle.setText(title);
 
@@ -54,7 +54,7 @@ public class MyDialog extends MyPopup {
         LinearLayout.LayoutParams paramsTitleDivider = new LinearLayout.LayoutParams(getRowWidth(),getDividerSuperLength());
         TextViewFont textViewTitleDivider = new TextViewFont(context);
         textViewTitleDivider.setLayoutParams(paramsTitleDivider);
-        textViewTitleDivider.setBackgroundColor(Color.CYAN);
+        textViewTitleDivider.setBackgroundColor(context.getResources().getColor(R.color.app_color));
 
         //creating body layout
         LinearLayout.LayoutParams paramsBody = new LinearLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);

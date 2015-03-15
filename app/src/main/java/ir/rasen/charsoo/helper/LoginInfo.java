@@ -25,6 +25,8 @@ public class LoginInfo {
         edit.putInt(Params.USER_ID, 0);
         edit.commit();
 
+        //go to the welcome activity
+
 
     }
 
@@ -50,5 +52,7 @@ public class LoginInfo {
                 context.getPackageName(), Context.MODE_PRIVATE);
         return preferences.getString(Params.ACCESS_TOKEN, "");
     }
+
+
 
 }

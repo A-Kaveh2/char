@@ -23,6 +23,14 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/button_login"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_entrance"
                 android:text="Friends, Followers, Search Users,\n Search Business"
                 android:id="@+id/button_adapter_base"
                 android:layout_centerHorizontal="true" />
@@ -122,6 +130,7 @@
                 android:text="Business Search Reslut"
                 android:id="@+id/button_business_search_result"
                 android:layout_centerHorizontal="true" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -136,6 +145,30 @@
                 android:layout_below="@+id/button_business_search_result"
                 android:text="Time Line Posts"
                 android:id="@+id/button_time_line_posts"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_time_line_posts"
+                android:text="Grid Posts"
+                android:id="@+id/button_grid_posts"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_grid_posts"
+                android:text="User Home"
+                android:id="@+id/button_user_home"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_user_home"
+                android:text="Business Home"
+                android:id="@+id/button_business_home"
                 android:layout_centerHorizontal="true" />
         </LinearLayout>
     </ScrollView>
